@@ -19,6 +19,13 @@ Aprendemos sobre as abordagens de merge commit e fast forward do git merge;
 
 Conseguimos reescrever a história de uma branch utilizando o comando git rebase.
 
+Execute o comando git branch para visualizar que apenas a branch main existe em seu repositório local;
+Com o comando git switch -c {nome_da_branch}, crie uma nova branch. Nela você pode adicionar novos commits;
+Após adicionar os commits na nova branch, volte para a main com git switch main;
+Adicione novos commits na main simulando uma nova funcionalidade que foi mesclada;
+Volte para a sua branch criada no Passo 2 e a atualize com git rebase main. Isso aplicará os novos commits da main no início dessa branch;
+Volte para a main e mescle o trabalho com o git merge. Se quiser forçar um merge commit, mesmo sendo possível realizar o fast forward, execute git merge --no-ff {nome_da_branch}.
+
 Os comandos pop, drop e apply do git stash possuem semelhanças e diferenças bem importantes, então vamos fazer um pequeno resumo de suas funcionalidades aqui:
 
 Apply
