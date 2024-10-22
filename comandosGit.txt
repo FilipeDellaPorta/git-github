@@ -36,3 +36,9 @@ O git stash pop faz exatamente a mesma coisa que o git stash apply, porém, alé
 
 Drop
 O git stash drop funciona exatamente como o pop, mas com uma simples diferença: ele apenas remove o item da stash, sem aplicá-lo em nosso repositório. Dessa forma, git stash drop remove o último item adicionado à stash, enquanto o git stash drop 1 remove da stash o item com índice 1.
+
+Salve alterações não adicionadas para commit utilizando o comando git stash;
+Utilize o comando git stash list para visualizar os itens adicionados à stash;
+Faça uso dos comandos git stash pop e git stash drop para aplicar ou descartar itens da stash;
+Com o comando git restore, desfaça as alterações tanto da working tree quanto da staging area;
+Utilize o parâmetro --source, do comando git restore, para deixar determinado arquivo no estado específico de um commit que você escolher.
