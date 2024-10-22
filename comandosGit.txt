@@ -8,3 +8,13 @@ d) --pretty ou --format para especificar com detalhes o que será exibido.
 2 - Na sequência, execute git show para visualizar o trabalho realizado em algum commit específico. Lembre-se que se não for informado algum commit, o último commit será exibido.
 
 3 - Por fim, com git diff, exiba a diferença entre 2 pontos da linha do tempo de nosso repositório. Caso nenhum parâmetro seja passado para o comando, a diferença exibida será entre o último commit e o que ainda não foi adicionado com git add.
+
+Entendemos o problema que branches resolvem ao colaborar com uma equipe em um projeto, organizando a colaboração, evitando conflitos e garantindo que uma funcionalidade seja enviada apenas quando estiver pronta;
+
+Conhecemos os comandos git branch e git switch para manipular as branches existentes;
+
+Vimos como unir o trabalho de duas branches com o comando git merge;
+
+Aprendemos sobre as abordagens de merge commit e fast forward do git merge;
+
+Conseguimos reescrever a história de uma branch utilizando o comando git rebase.
