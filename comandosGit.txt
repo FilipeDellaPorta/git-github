@@ -42,3 +42,10 @@ Utilize o comando git stash list para visualizar os itens adicionados à stash;
 Faça uso dos comandos git stash pop e git stash drop para aplicar ou descartar itens da stash;
 Com o comando git restore, desfaça as alterações tanto da working tree quanto da staging area;
 Utilize o parâmetro --source, do comando git restore, para deixar determinado arquivo no estado específico de um commit que você escolher.
+
+Utilize o comando git tag {nome_da_tag} para criar uma tag apontando para o HEAD atual;
+Com o comando git tag {nome_da_tag} {hash_de_um_commit}, crie uma tag apontando para um commit específico;
+Remova a primeira tag com git tag -d {nome_da_tag};
+Crie a tag novamente, mas agora com uma mensagem, utilizando git tag -a {nome_da_tag} -m “Mensagem da tag”;
+Envie as tags para o GitHub com git push;
+Crie uma release no GitHub a partir de uma das tags.
