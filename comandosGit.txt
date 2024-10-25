@@ -49,3 +49,8 @@ Remova a primeira tag com git tag -d {nome_da_tag};
 Crie a tag novamente, mas agora com uma mensagem, utilizando git tag -a {nome_da_tag} -m “Mensagem da tag”;
 Envie as tags para o GitHub com git push;
 Crie uma release no GitHub a partir de uma das tags.
+
+Crie uma nova branch com git switch -c {nome_da_branch};
+Nessa nova branch, crie um novo commit;
+Volte para a main e utilize o comando cherry-pick para aplicar esse único commit à main;
+Com o comando git blame, visualize os detalhes da última alteração de cada uma das linhas de determinado arquivo
